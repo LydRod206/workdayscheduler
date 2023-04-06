@@ -33,5 +33,5 @@ $(document).ready(function () {
     var now = daysjs();
     var dateTime = now.format('MMM D, YYYY h:mm A');
     console.log(dateTime);
-    $('#dateTime').text(dateTime); 
+    $('#currentDay').text(dateTime); 
   });
